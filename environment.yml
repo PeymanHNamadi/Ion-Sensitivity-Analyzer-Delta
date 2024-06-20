@@ -1,0 +1,21 @@
+name: dash_ion
+channels:
+  - conda-forge
+  - pyviz
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - numpy
+  - pandas
+  - panel
+  - bokeh
+  - hvplot
+  - holoviews
+  - matplotlib
+  - jupyter
+  - pip:
+    - keras==2.11
+    - tensorflow==2.11
+    - joblib
+    - scikit-learn
