@@ -16,7 +16,7 @@ dependencies:
   - jupyter
   - nbconvert
   - pip:
-    - keras
-    - tensorflow
+    - keras==2.11
+    - tensorflow==2.11
     - joblib
     - scikit-learn
