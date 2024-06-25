@@ -6,13 +6,15 @@ channels:
 dependencies:
   - python=3.9.18
   - pip
-  - numpy==1.26.3
-  - pandas==2.2.1
+  - numpy
+  - pandas
   - panel==1.4.4
   - bokeh==3.4.1
   - hvplot==0.10.0
   - holoviews==1.19.0
-  - matplotlib==3.8.0
+  - matplotlib
+  - jupyter
+  - nbconvert
   - pip:
     - keras==2.10.0
     - tensorflow==2.10.0
