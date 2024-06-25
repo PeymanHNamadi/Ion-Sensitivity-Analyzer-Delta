@@ -1,4 +1,4 @@
-name: dash_ion
+name: Ion_Sens_Dash
 channels:
   - conda-forge
   - pyviz
@@ -6,16 +6,15 @@ channels:
 dependencies:
   - python=3.7
   - pip
-  - numpy
-  - pandas
-  - panel
-  - bokeh
-  - hvplot
-  - holoviews
-  - matplotlib
-  - jupyter
+  - numpy==1.26.3
+  - pandas==2.2.1
+  - panel==1.4.4
+  - bokeh==3.4.1
+  - hvplot==0.10.0
+  - holoviews==1.19.0
+  - matplotlib==3.8.0
   - pip:
-    - keras==2.11
-    - tensorflow==2.11
-    - joblib
-    - scikit-learn
+    - keras==2.10.0
+    - tensorflow==2.10.0
+    - joblib==1.2.0
+    - scikit-learn==1.0.2
