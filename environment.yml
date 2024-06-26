@@ -1,4 +1,4 @@
-name: Ion_Sens_Dash3
+name: Ion_Sens_Dash
 channels:
   - conda-forge
   - pyviz
