@@ -1,4 +1,4 @@
-name: Ion_sensitivity
+name: ion_sensitivity
 channels:
   - conda-forge
   - pyviz
